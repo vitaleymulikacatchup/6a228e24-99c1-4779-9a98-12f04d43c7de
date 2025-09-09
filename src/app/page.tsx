@@ -13,7 +13,6 @@ export default function Home() {
     <SiteThemeProvider theme={{ styleVariant: 'funAndTrendy', colorTemplate: 1, textAnimation: 'slide' }}>
       <NavbarLayoutFloatingInline
         logoSrc="/images/logo.svg"
-        logoAlt="LuminaToken"
         navItems={[{ name: 'Hero', id: 'hero' }, { name: 'About', id: 'about' }, { name: 'FAQ', id: 'faq' }, { name: 'How to Buy', id: 'how-to-buy' }, { name: 'Tokenomics', id: 'tokenomics' }, { name: 'Footer', id: 'footer' }]}
         buttonText="Buy Now"
       />
@@ -59,7 +58,6 @@ export default function Home() {
       <div id="footer" data-section="footer" className="scroll-mt-24">
         <FooterLogoEmphasis
           logoSrc="/images/logo.svg"
-          logoAlt="LuminaToken"
           logoText="LuminaToken"
           columns={[
             { items: [{ label: 'Privacy Policy', onClick: () => {} }, { label: 'Terms of Service', onClick: () => {} }] },
